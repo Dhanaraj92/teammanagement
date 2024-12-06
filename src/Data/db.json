@@ -1,0 +1,172 @@
+{
+  "teams": [
+    {
+      "id": "50fe",
+      "teamname": "RCB - BENGULURU",
+      "players": [
+        {
+          "id": 314805,
+          "name": "VIRAT KOHLI",
+          "role": "Batsman",
+          "image": "https://s.yimg.com/uu/api/res/1.2/VqIYFeS3FNgU1rnrfsRURQ--~B/aD0yNTg3O3c9MzkxMjtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ap.org/3b2824a0207aa72c112adc33c53cd133"
+        },
+        {
+          "id": 1733474228932,
+          "name": "PATIDHAR",
+          "role": "Batsman",
+          "image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202210/patidar_1200x768.jpeg?VersionId=mbB8nwrsUO7HCt8w9li7JGdqtRed4Bce"
+        },
+        {
+          "id": 1733490030410,
+          "name": "JITHESH SHARMA",
+          "role": "Batsman",
+          "image": "https://images.news18.com/kannada/uploads/2024/11/jithesh-sharma-2024-11-b8de2383066249a18557475c96b4800d.jpg?impolicy=website&width=700&height=700"
+        },
+        {
+          "id": 1733490171590,
+          "name": "KRUNAL PANDYA",
+          "role": "All-rounder",
+          "image": "https://cf-img-a-in.tosshub.com/lingo/stak/images/story/202412/674d799e7afd0-hardik-pandya-021049262-16x9.jpeg"
+        },
+        {
+          "id": 1733490280074,
+          "name": "LIAM LIVINGSTONE",
+          "role": "All-rounder",
+          "image": "https://e0.365dm.com/24/11/1600x900/skysports-jos-buttler-cricket_6745417.jpg?20241110223541"
+        },
+        {
+          "id": 1733490325391,
+          "name": "BHUVANESWAR KUMAR",
+          "role": "Bowler",
+          "image": "https://www.wisden.com/static-assets/waf-images/ca/8c/f6/16-9/w9yPUeOO4d.jpg?v=23.07&w=1200"
+        },
+        {
+          "id": 1733490394576,
+          "name": "SUYASH SHARMA",
+          "role": "Bowler",
+          "image": "https://crickettimes.com/wp-content/uploads/2023/04/Suyash-Sharma.jpeg"
+        },
+        {
+          "id": 1733490466018,
+          "name": "PHIL SALT",
+          "role": "Wicketkeeper",
+          "image": "https://cricshots.com/wp-content/uploads/2024/06/phil-salt-t20-wc-2024.jpg"
+        },
+        {
+          "id": 1733490467469,
+          "name": "SWASTHIK CHIKARA",
+          "role": "Wicketkeeper",
+          "image": "https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2023/12/rizvi-insta-3_1200_675.jpg"
+        },
+        {
+          "id": 1733490469119,
+          "name": "DEVDUTT PADIKKAL",
+          "role": "Batsman",
+          "image": "https://wikibiography.in/wp-content/uploads/2020/09/devdutt-padikkal-2.jpg"
+        },
+        {
+          "id": 1733490470946,
+          "name": "SWAPNIL SING",
+          "role": "All-rounder",
+          "image": "https://staticg.sportskeeda.com/editor/2017/12/e7942-1512477281-800.jpg"
+        }
+      ]
+    },
+    {
+      "id": "ea4c",
+      "players": [
+        {
+          "id": 492511,
+          "name": "MS DHONI",
+          "role": "Batsman",
+          "image": "https://www.newstap.in/h-upload/2022/11/11/1435686-ms-dhoni.webp"
+        },
+        {
+          "id": 1733490748244,
+          "name": "RUTHURAJ GAIKWAD",
+          "role": "Batsman",
+          "image": "https://www.wikistaar.com/wp-content/uploads/2023/04/Ruturaj-Gaikwad-Wiki.jpg"
+        },
+        {
+          "id": 1733490750122,
+          "name": "RAHUL TRIPATHI",
+          "role": "Batsman",
+          "image": "https://ik.imagekit.io/j83rchiauw/A_List_Star/Rahul-Tripathi-Bio-Tring.png"
+        },
+        {
+          "id": 1733490936460,
+          "name": "RACHIN RAVEENDRA",
+          "role": "All-rounder",
+          "image": "https://e0.365dm.com/23/11/2048x1152/skysports-rachin-ravindra-new-zealand_6358837.jpg?20231113124322"
+        },
+        {
+          "id": 1733491056483,
+          "name": "SAM CURRAN",
+          "role": "All-rounder",
+          "image": "https://circleofcricket.com/post_image/post_image_9243c97.jpg"
+        },
+        {
+          "id": 1733491124051,
+          "name": "DEEPAK HOODA",
+          "role": "All-rounder",
+          "image": "https://staticc.sportskeeda.com/editor/2022/10/3f792-16660887884355-1920.jpg"
+        },
+        {
+          "id": 1733491184903,
+          "name": "MUKESH CHOWDARY",
+          "role": "Bowler",
+          "image": "https://www.businessupturn.com/wp-content/uploads/2022/05/imgonline-com-ua-resize-DvQZq9hl9HO.jpg"
+        },
+        {
+          "id": 1733491187207,
+          "name": "MATHEESHA PATHIRANA",
+          "role": "Bowler",
+          "image": "https://aimages.willow.tv/ytThumbnails/10828_Pathirana_2Wickets.jpg"
+        },
+        {
+          "id": 1733491189182,
+          "name": "SHREYAS GOPAL",
+          "role": "Batsman",
+          "image": "https://www.wisden.com/static-assets/waf-images/81/0a/f7/16-9/6JVIuBzkYr.jpg"
+        },
+        {
+          "id": 1733491190298,
+          "name": "SHIVAM DUBE",
+          "role": "All-rounder",
+          "image": "https://assets-webp.khelnow.com/d7293de2fa93b29528da214253f1d8d0/news/uploads/2023/10/Shivam-Dube.jpg.webp",
+          "teamName": "",
+          "teamId": "ea4c",
+          "teamname": "CHENNAI SUPER KINGS - (CSK)"
+        },
+        {
+          "id": 1733491191767,
+          "name": "RAVINDRA JADEJA",
+          "role": "All-rounder",
+          "image": "https://superstarsbio.com/wp-content/uploads/2019/07/Ravindra-Jadeja-glass.jpg"
+        }
+      ],
+      "teamname": "CHENNAI SUPER KINGS - (CSK)"
+    },
+    {
+      "id": "d7a7",
+      "teamname": "INDIA",
+      "players": [
+        {
+          "id": 159089,
+          "name": "NAVEEN A",
+          "role": "Batsman",
+          "image": "https://th.bing.com/th/id/OIP.-QkiJNznvMgIFVkoF0BrRQHaFj?w=267&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "teamName": "INDIA",
+          "teamId": "d7a7",
+          "teamname": "INDIA"
+        },
+        {
+          "id": 1733497239087,
+          "name": "DHANARAJ",
+          "role": "Batsman",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

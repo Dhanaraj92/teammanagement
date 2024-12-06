@@ -1,0 +1,89 @@
+.create-team {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .teamname,
+  .player-row input,
+  .player-row select {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .player-row {
+    margin-bottom: 15px;
+  }
+  
+  .player-row input,
+  .player-row select {
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: lightgray;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  button.remove {
+    background-color: #e94e77;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  button.remove:hover {
+    background-color: #d03d62;
+  }
+  
+  button:hover {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  button:active {
+    background-color: #357ab8;
+  }
+  
+  @media (max-width: 768px) {
+    .create-team {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

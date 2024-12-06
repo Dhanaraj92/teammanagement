@@ -1,0 +1,141 @@
+/* PlayerDetails CSS */
+.player-detail {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .player-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .player-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .player-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .player-role {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .player-team {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+  }
+  
+  .save-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e53935;
+  }
+  
+  .edit-button {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #fb8c00;
+  }
+  
+  .delete-button {
+    background-color: #e94e77;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #d03d62;
+  }
+  
+  /* Editable input fields styling */
+  .edit-input, .edit-select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-select {
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .player-card {
+      max-width: 100%;
+      padding: 15px;
+    }
+  
+    .player-image {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .player-name {
+      font-size: 20px;
+    }
+  
+    .player-role {
+      font-size: 16px;
+    }
+  
+    .player-team {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  
+    .edit-select {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 480px){
+    .edit-input{
+        width: 260px;
+    }
+  }
+  

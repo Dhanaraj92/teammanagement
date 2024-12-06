@@ -1,0 +1,164 @@
+/* Container Styling */
+.team-card {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Heading */
+  .team-name {
+    font-size: 24px;
+    color: blue;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Player List */
+  .player-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+  }
+  
+  /* Player Card */
+  .player-card {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-input{
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  .player-select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .player-input:focus,
+  .player-select:focus {
+    outline: none;
+    border-color: #4a90e2;
+  }
+  
+  /* Image Styling */
+  .player-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .edit-button {
+    background-color: #4a90e2;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .edit-button:hover {
+    background-color: #357ab8;
+  }
+  
+  .delete-button {
+    background-color: #e94e77;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .delete-button:hover {
+    background-color: #d03d62;
+  }
+  
+  .save-button {
+    background-color: #4caf50;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .cancel-button {
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .add-player-button {
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .add-player-button:hover {
+    background-color: rgb(29, 181, 29);
+  }
+  
+  .delete-team-button {
+    background-color: #ff5722;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .delete-team-button:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .team-card {
+      padding: 15px;
+      margin: 10px;
+    }
+  
+    .player-card {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 15px;
+    }
+    .player-input{
+        width: 380px;
+    }
+    .player-select{
+        width: 400px;
+    }
+  }
+
+  @media (max-width: 480px){
+    .player-input{
+        width: 200px;
+    }
+    .player-select{
+        width: 220px;
+    }
+  }
+  
