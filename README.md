@@ -31,6 +31,7 @@ Prerequisites:-
 2.npm or yarn: Package manager to install dependencies.
 
 
+
 Steps to Run the Project:-
 Step 1 - Clone the Repository:
 1.git clone https://github.com/your-repository.git
@@ -45,13 +46,15 @@ Step 4 – Setup and Run the Backend:
 Step 5 – Start the JSON Server:
 1.Command :  json-server --watch db.json --port=2003
 2.This server will mock the API at http://localhost:2003
+
 API Endpoints:
+
 Teams API:-
-GET /teams: Fetch all teams.
-GET /teams/:id: Fetch a specific team by ID.
-POST /teams: Add a new team.
-PUT /teams/:id: Update a team by ID.
-DELETE /teams/:id: Delete a team by ID.
+GET /teams: Fetch all teams.
+GET /teams/:id: Fetch a specific team by ID.
+POST /teams: Add a new team.
+PUT /teams/:id: Update a team by ID.
+DELETE /teams/:id: Delete a team by ID.
 Usage Notes:
-Default Player Image: If no image is uploaded for a player, a default image is used
-Default Image URL: “https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7”
+Default Player Image: If no image is uploaded for a player, a default image is used
+Default Image URL: “https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7”
