@@ -1,0 +1,188 @@
+.playerDetail {
+    width: 30%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e5eaea;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .editForm, .playerInnfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .playerInnfo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 1px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .editForm input, .editForm select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .editForm button {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+  }
+  
+  .actions button {
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .actions .edt {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .actions .dlt {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .actions button:hover {
+    opacity: 0.8;
+  }
+  .actions .savebtn{
+    height: 37px;
+    background-color: #007bff;
+  }
+  .actions .cnclbtn{
+    height: 37px;
+    background-color: #f44336;
+  }
+  @media (max-width: 1440px){
+    .playerDetail{
+      width: 400px;
+    }
+    .editForm input{
+      width: 400px;
+    }
+    .editForm select{
+      width: 420px;
+    }
+  }
+  @media (max-width: 1024px){
+    .editForm input{
+      width: 380px;
+    }
+    .editForm select{
+      width: 400px;
+    }
+  }
+  @media (max-width: 768px) {
+    .playerDetail {
+      /* margin: 10px; */
+      padding: 15px;
+      width: 300px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    .editForm select {
+      width: 100%;
+    }
+    .editForm input{
+      width: 280px;
+    }
+  
+    .editForm select {
+      font-size: 14px;
+    }
+    .actions .savebtn{
+      margin-top: 30px;
+    }
+    .actions .cnclbtn{
+      margin-top: 30px;
+    }
+  
+    .actions button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .editForm button, .actions button {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .playerDetail {
+      padding: 10px;
+      height: 300px;
+      width: 250px;
+      margin-left: 25px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+    .editForm input{
+      width: 230px;
+    }
+  
+    .editForm select {
+      font-size: 14px;
+    }
+    .actions .savebtn{
+      margin-top: 30px;
+    }
+    .actions .cnclbtn{
+      margin-top: 30px;
+    }
+  
+    .actions button {
+      font-size: 14px;
+      padding: 10px;
+    }
+    .actions .edt{
+      width: 60px;
+    }
+  }
+  

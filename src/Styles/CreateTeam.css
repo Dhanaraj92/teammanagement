@@ -1,0 +1,180 @@
+.create-team {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #eeebeb;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+  
+  .create-team .teamname {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #949292;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  .player-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .player-row input,
+  .player-row select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #949292;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+ 
+  .remove {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .remove:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .create-team .clear{
+    background-color: grey;
+    height: 38px;
+  }
+  
+  .create-team button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .create-team button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .create-team button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  @media (max-width: 1440px){
+    .create-team .buttons .add-btn{
+      width: 110px;
+    }
+    .create-team .buttons .create-btn{
+      width: 100px;
+    }
+    .create-team .clear{
+      width: 100px;
+    }
+    .create-team .teamname{
+      width: 780px;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .create-team .buttons .add-btn{
+      width: 150px;
+    }
+    .create-team .buttons .create-btn{
+      width: 100px;
+    }
+    .create-team .clear{
+      width: 100px;
+    }
+    .create-team .teamname{
+      width: 780px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .player-row {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .player-row input,
+    .player-row select {
+      flex: 100%; 
+    }
+  
+    .remove {
+      flex: 100%;
+      text-align: center;
+    }
+  
+    .create-team button {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+    .create-team .buttons .add-btn{
+      width: 100px;
+    }
+    .create-team .buttons .create-btn{
+      width: 100px;
+    }
+    .create-team .teamname{
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .player-row {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+  
+    .player-row input,
+    .player-row select {
+      flex: 100%; 
+    }
+  
+    .remove {
+      flex: 100%;
+    }
+    .create-team .clear{
+        height: 32px;
+        width: 70px;
+       margin-left: -0px;
+    }
+    .create-team button {
+      font-size: 12px;
+      padding: 8px 10px;
+      margin: 5px 2px;
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .create-team .buttons .add-btn{
+      width: 100px;
+    }
+    .create-team .buttons .create-btn{
+      width: 100px;
+    }
+    .create-team .clear{
+      margin-left: 100px;
+    }
+    .create-team .teamname{
+      width: 260px;
+    }
+  }
+  

@@ -1,0 +1,236 @@
+.team-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e1e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .team-name {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .delete-team-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 45px;
+    width: 40px;
+  }
+  
+  .delete-icon {
+    font-size: 17px;
+    transition: transform 0.2s ease;
+  }
+  
+  .delete-icon:hover {
+    transform: scale(1.2);
+    color: rgb(222, 56, 56);
+  }
+  
+  .player-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .player-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .player-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .player-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .player-name {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .player-role {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .add-player-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    height: 40px;
+  }
+  
+  .add-player-button:hover {
+    background-color: #45a049;
+  }
+  
+  .add-player-form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+ 
+  .add-player-form .playerinput{
+    width: 320px;
+  }
+  
+  .player-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .player-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .save-button,
+  .cancel-button {
+    flex: 1;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cancel-button {
+    background-color: #ff5c5c;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-button:hover {
+    background-color: #e63939;
+  }
+  
+  @media (max-width: 1024px) {
+    .team-card {
+      width: 100%;
+    }
+  
+    .player-list {
+      grid-template-columns: 1fr; 
+    }
+    .player-select{
+        width: 270px;
+    }
+    .player-input{
+        width: 250px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .player-card {
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 15px;
+    }
+  
+    .player-image {
+      width: 50px;
+      height: 50px;
+      margin-top: 10px;
+    }
+  
+    .player-name {
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
+  
+    .player-role {
+      font-size: 0.8rem;
+    }
+  
+    .add-player-button {
+      font-size: 0.8rem;
+      padding: 8px 12px;
+    }
+    .player-select{
+        width: 315px;
+    }
+    .player-input{
+        width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .team-card {
+      padding: 7px;
+      margin-left: -10px;
+      width: 300px;
+    }
+  
+    .player-card {
+      padding: 8px;
+      height: 50px;
+    }
+  
+    .add-player-button {
+      font-size: 0.7rem;
+      padding: 5px 8px;
+      margin-left: -1px;
+      width: 100px;
+    }
+
+    .player-select{
+        width: 260px;
+        margin-left: 10px;
+    }
+    .add-player-form .playerinput{
+        width: 240px;
+        margin-left: 10px;
+    }
+  }
+  
