@@ -3,10 +3,11 @@ README file
 
 Features:-
 Team Management:
-
 1.Create new teams.
 2.View team details and associated players.
+
 3.Delete teams.
+
 Player Management:-
 1.Add players to a team (maximum 11 players per team).
 2.Edit player details, including name, role, and image.
