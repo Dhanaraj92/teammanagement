@@ -120,4 +120,9 @@
     }
     
   }
+  @media (max-width: 435px){
+    .home-card{
+      margin-left: 20px;
+    }
+  }
   

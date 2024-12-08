@@ -77,8 +77,8 @@
       "players": [
         {
           "id": 492511,
-          "name": "MS DHONI",
-          "role": "All-rounder",
+          "name": "MS DHONi",
+          "role": "Wicketkeeper",
           "image": "https://www.newstap.in/h-upload/2022/11/11/1435686-ms-dhoni.webp",
           "teamName": "CSK TEAM",
           "teamId": "ea4c"
@@ -182,6 +182,12 @@
           "name": "PAVAN KALYAN",
           "role": "Batsman",
           "image": "https://th.bing.com/th/id/OIP.ZZg4QhwHCB2qZUkWlsiTzAHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+        },
+        {
+          "id": 1733627347376,
+          "name": "d j",
+          "role": "Batsman",
+          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         }
       ]
     },
@@ -250,33 +256,21 @@
           "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         },
         {
-          "id": 1733595704396,
-          "name": "T",
+          "id": 1733639875626,
+          "name": "dj",
           "role": "Batsman",
           "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         }
       ]
     },
     {
-      "id": "a56a",
-      "teamname": "THUMBUR",
+      "id": "1019",
+      "teamname": "chennai",
       "players": [
         {
-          "id": 21675,
-          "name": "SAI",
-          "role": "Bowler",
-          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-        }
-      ]
-    },
-    {
-      "id": "e6bc",
-      "teamname": "THUMBUR",
-      "players": [
-        {
-          "id": 967910,
-          "name": "G",
-          "role": "Batsman",
+          "id": 677307,
+          "name": "MS Dhoni",
+          "role": "All-rounder",
           "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         }
       ]

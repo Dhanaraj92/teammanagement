@@ -6,6 +6,7 @@
     background-color: #e5eaea;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
   }
   
   .editForm, .playerInnfo {
@@ -33,9 +34,12 @@
     color: #666;
     margin-bottom: 10px;
   }
+  .editForm select{
+    width: 95%;
+  }
   
-  .editForm input, .editForm select {
-    width: 80%;
+  .editForm input {
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -95,6 +99,9 @@
     height: 37px;
     background-color: #f44336;
   }
+
+
+  /* responsives */
   @media (max-width: 1440px){
     .playerDetail{
       width: 400px;
