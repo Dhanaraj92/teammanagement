@@ -7,13 +7,13 @@ const Carousel = () => {
       id: 1,
       title: 'Manage Teams Efficiently',
       description: 'Create, organize, and manage your teams effortlessly.',
-      image: 'https://miro.medium.com/v2/resize:fit:1200/1*X0CI0xMKpIzsccfQbfzm8A.png',
+      image: 'https://wallpapercave.com/wp/wp6848406.jpg',
     },
     {
       id: 2,
       title: 'Search for Players',
       description: 'Find players and manage their profiles seamlessly.',
-      image: 'https://wallpapercave.com/wp/wp6848406.jpg',
+      image: 'https://miro.medium.com/v2/resize:fit:1200/1*X0CI0xMKpIzsccfQbfzm8A.png',
     },
     {
       id: 3,

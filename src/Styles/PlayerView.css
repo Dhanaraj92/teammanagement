@@ -1,9 +1,10 @@
 .playerDetail {
     width: 30%;
+    height: 340px;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #e5eaea;
+    background-color: #eaeaea;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-top: 100px;
@@ -26,13 +27,12 @@
   h1 {
     font-size: 28px;
     color: #333;
-    margin-bottom: 1px;
   }
   
   p {
     font-size: 16px;
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .editForm select{
     width: 95%;
@@ -94,10 +94,13 @@
   .actions .savebtn{
     height: 37px;
     background-color: #007bff;
+    margin-top: 30px;
   }
   .actions .cnclbtn{
     height: 37px;
     background-color: #f44336;
+    margin-top: 30px;
+
   }
 
 

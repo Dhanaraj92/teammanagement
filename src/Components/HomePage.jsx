@@ -71,7 +71,7 @@ function HomePage() {
             </Link>
             <div className="home-card-content">
               <p>
-                With the <strong>Create Team</strong> feature, you can form your ideal cricket team. Add players, assign them specific roles, and create a strategy tailored for your matches. Make sure every player is in the right position to maximize performance!
+                With the <strong>Create Team</strong> option to Add players,<br /> assign them specific roles!
               </p>
             </div>
           </div>
@@ -84,16 +84,16 @@ function HomePage() {
             </Link>
             <div className="home-card-content">
               <p>
-                Use the <strong>View Teams</strong> option to keep track of your existing squads. Edit player details, add new members, or remove players no longer part of the team. Stay on top of team management effortlessly!
+                Use the <strong>View Teams</strong> option to Edit player details,<br /> add new members!
               </p>
             </div>
           </div>
         </div>
 
         <section className="additional-info">
-          <h2>Why Choose Cricket Team Management?</h2>
+          <h2 className='headline'>Why Choose Cricket Team Management?</h2>
           <p>
-            Cricket is not just a game; it's a passion. Managing a cricket team requires precision, planning, and a deep understanding of each player's role. With our platform, you can:
+           1. Cricket is not just a game; it's a passion. Managing a cricket team requires precision, planning, and a deep understanding of each player's role. With our platform, you can:
           </p>
           <ul>
             <li>Build a robust team with clear roles and responsibilities.</li>
@@ -101,7 +101,7 @@ function HomePage() {
             <li>Keep all your teams organized in one place for easy access.</li>
           </ul>
           <p>
-            Whether you are managing a school team, a corporate squad, or a professional lineup, Cricket Team Management simplifies the process, allowing you to focus on what matters—winning matches.
+           2. Whether you are managing a school team, a corporate squad, or a professional lineup, Cricket Team Management simplifies the process, allowing you to focus on what matters—winning matches.
           </p>
         </section>
       </div>
