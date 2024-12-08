@@ -242,36 +242,24 @@
           "name": "D",
           "role": "Batsman",
           "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-        },
-        {
-          "id": 1733595673276,
-          "name": "R",
-          "role": "Batsman",
-          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-        },
-        {
-          "id": 1733595700013,
-          "name": "F",
-          "role": "Batsman",
-          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
-        },
-        {
-          "id": 1733639875626,
-          "name": "dj",
-          "role": "Batsman",
-          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
         }
       ]
     },
     {
-      "id": "bdc8",
-      "teamname": "mumbai",
+      "id": "7dc6",
+      "teamname": "MUMBAI INDIA",
       "players": [
         {
-          "id": 190484,
-          "name": "Mukesh",
+          "id": 754805,
+          "name": "Hardik Pandya",
           "role": "All-rounder",
-          "image": "https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          "image": "https://www.iwmbuzz.com/wp-content/uploads/2022/09/7-lesser-known-facts-about-hardik-pandya.jpg"
+        },
+        {
+          "id": 482596,
+          "name": "Tendulkar",
+          "role": "Batsman",
+          "image": "https://e0.365dm.com/22/12/1600x900/arjun-tendulkar-cricket-india_5996150.jpg?20221214105608"
         }
       ]
     }

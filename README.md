@@ -26,6 +26,7 @@ Responsive Design:-
 2.Styled using CSS with media queries.
 
 Techs Used:-
+
 Frontend:-
 1.React.js: Component-based UI development.
 2.Axios: API calls to interact with the backend.
@@ -33,6 +34,7 @@ Frontend:-
 
 Backend:-
 1.JSON Server: Mock server for simulating backend APIs.
+
 Prerequisites:-
 1.Node.js: Ensure you have Node.js installed on your machine.
 2.npm or yarn: Package manager to install dependencies.
@@ -40,16 +42,21 @@ Prerequisites:-
 
 
 Steps to Run the Project:-
+
 Step 1 - Clone the Repository:
 1.git clone https://github.com/your-repository.git
 2.cd cricket-team-management
+
 Step 2 – Install Dependencies:
 1.npm install
+
 Step 3 – Start the Frontend:
 1.npm start
+
 Step 4 – Setup and Run the Backend:
 1.Install JSON Server Globally
 2.Command : npm install -g json-server
+
 Step 5 – Start the JSON Server:
 1.Command :  json-server --watch db.json --port=2003
 2.This server will mock the API at http://localhost:2003
@@ -57,11 +64,12 @@ Step 5 – Start the JSON Server:
 API Endpoints:
 
 Teams API:-
-GET /teams: Fetch all teams.
-GET /teams/:id: Fetch a specific team by ID.
-POST /teams: Add a new team.
-PUT /teams/:id: Update a team by ID.
-DELETE /teams/:id: Delete a team by ID.
+-GET /teams: Fetch all teams.
+-GET /teams/:id: Fetch a specific team by ID.
+-POST /teams: Add a new team.
+-PUT /teams/:id: Update a team by ID.
+-DELETE /teams/:id: Delete a team by ID.
+
 Usage Notes:
-Default Player Image: If no image is uploaded for a player, a default image is used
-Default Image URL: “https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7”
+1.Default Player Image: If no image is uploaded for a player, a default image is used
+2.Default Image URL: “https://th.bing.com/th/id/OIP.GKAbRpYzDlJa139WC8xPtwHaIC?w=175&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7”
